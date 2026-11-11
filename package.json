@@ -7,6 +7,9 @@
     "dev:frontend": "cd frontend && npm run dev",
     "install:all": "cd backend && npm install && cd ../frontend && npm install",
     "start:backend": "cd backend && npm start"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "helmet": "^8.3.0"
   }
 }
-
